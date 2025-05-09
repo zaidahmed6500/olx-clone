@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header started */
+.header {
+    padding: 30px;
+    border: 1px  solid grey;
+}
+
+.header-section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-items {
+    display: flex;
+    gap: 30px;
+}
+
+.header-items .fa-solid {
+    background-color: rgb(156, 153, 153);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+} 
+
+.header-items span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.header-section-2 {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.location-border {
+    border: 1px solid grey;
+    padding: 11px;
+    padding-right: 10rem;
+}
+
+.location-border span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.search-border {
+    align-items: center;
+}
+
+.search-border input {
+    border: 1px solid grey;
+    padding: 13px;
+    padding-right: 35rem;
+}
+
+.search-border span .fa-magnifying-glass {
+    background-color: rgb(2, 37, 36);
+    padding: 14px;
+    color: #fff;
+}
+
+.header-items-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-items-2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.header-items-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    border: 2px solid rgb(6, 72, 170);
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
